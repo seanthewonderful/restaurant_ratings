@@ -14,7 +14,7 @@ def sort_ratings():
     each = rating_dict.items()
     sorts = sorted(each)
     for ea in sorts:
-        print(ea[0], "is rated at", ea[1])
+        print(f"{ea[0]} is rated at {ea[1]}.")
     rate_more = input("Do you want to rate another restaurant? Type y or n:\n")
     if rate_more == "y":
         user_input()
