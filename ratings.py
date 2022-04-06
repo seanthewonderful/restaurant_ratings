@@ -25,4 +25,5 @@ def user_input():
     rating_dict[rest] = rating
     sort_ratings()
 
-user_input()
+sort_ratings()
+# user_input()
